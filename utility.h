@@ -10,6 +10,33 @@
 // then be sure to  #include "utility.h" in the file where you use
 // these functions
 
-bool isOdd(int x);
-bool isEven(int x);
-bool isPrime(int x);
+bool isOdd(int x) { 
+  if(x%2 == 1){
+    return true;
+  }
+   else{
+     return false;  
+   }// REPLACE THIS STUB WITH REAL CODE
+}
+bool isEven(int x) { 
+  if(x%2 == 0){
+    return true;
+  }
+   else{
+     return false;  
+   }
+}
+bool isPrime(int x) { 
+if(number <= 2){
+  return false;}
+if(number % 2 == 0) 
+{return false;
+                    }
+for(int i=3; i<=number; i++){
+if(number % i == 0 ) 
+{return false;
+}
+
+}
+  return true;
+}
