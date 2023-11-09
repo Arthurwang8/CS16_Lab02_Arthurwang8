@@ -1,5 +1,5 @@
 #include "utility.h"
-#include "utility.cpp"
+
 #include "tddFuncs.h"
 
 int main() {
