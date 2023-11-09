@@ -27,13 +27,13 @@ bool isEven(int x) {
    }
 }
 bool isPrime(int x) { 
-if(number <= 2){
+if(x <= 2){
   return false;}
-if(number % 2 == 0) 
+if(x % 2 == 0) 
 {return false;
                     }
-for(int i=3; i<=number; i++){
-if(number % i == 0 ) 
+for(int i=3; i<=x; i++){
+if(x % i == 0 ) 
 {return false;
 }
 
